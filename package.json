@@ -9,7 +9,7 @@
     "url": "git+https://github.com/openedx/frontend-app-account.git"
   },
   "scripts": {
-    "build": "fedx-scripts webpack --mode development",
+    "build": "fedx-scripts webpack",
     "i18n_extract": "fedx-scripts formatjs extract",
     "lint": "fedx-scripts eslint --ext .js --ext .jsx .",
     "snapshot": "fedx-scripts jest --updateSnapshot",
